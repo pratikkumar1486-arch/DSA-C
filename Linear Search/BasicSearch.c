@@ -13,10 +13,10 @@ static int search(int arr[],int n, int target){
 int main(){
     int arr[]= {1,2,36,46,56};
     int n = sizeof(arr)/sizeof(int);
-    int target ;
+    int key ;
     printf("Enter element you want to search : ");
-    scanf("%d",&target);
-    int result = search(arr,n,target);
+    scanf("%d",&key);
+    int result = search(arr,n,key);
   if(result !=-1){
     printf("Element found at index : %d",result);
   }
